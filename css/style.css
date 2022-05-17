@@ -21,7 +21,6 @@ body{
 }
 
 .button{
-    padding: 10px 15px;
     border-radius: 40px;
     border: 0;
     cursor: pointer;
@@ -75,18 +74,51 @@ nav > img{
     text-decoration: none;
 }
 
+nav button{
+    padding: 10px 15px;
+}
+
 .jumbotron-row{
     background-image: url(../img/jumbo.png);
-    background-size: contain;
-    min-height: 500px;
+    background-size: cover;
+    min-height: 600px;
     justify-content: center;
     align-items: center;
 }
 
 .jumbotron{
-    background-color: blueviolet;
-    height: 300px;
-    width: 50%;
+    width: 800px;
+    text-align: center;
+}
+
+.jumbotron h1{
+    font-size: 58px;
+    margin-bottom: 50px;
+}
+
+.jumbotron p{
+    font-size: 20px;
+    margin-bottom: 30px;
+    line-height: 2rem;
+}
+
+.jumbotron button{
+    font-size: 1.3rem;
+    padding: 15px 30px;
+}
+
+.download-button > *{
+    vertical-align: middle;
+}
+
+.open-button {
+    background-color: #23272A;
+    color: white;
+}
+
+.fa-solid.fa-down-long{
+    margin-right: 10px;
+    font-size: 1rem;
 }
 
 /* Main */
