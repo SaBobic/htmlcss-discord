@@ -16,7 +16,7 @@ body{
 /* Utilities */
 
 .container{
-    width: 1400px;
+    width: 1200px;
     margin: 0 auto;
 }
 
@@ -48,11 +48,14 @@ body{
 nav{
     height: 70px;
     align-items: center;
-    justify-content: center;
 }
 
 nav > img{
     height: 40px;
+}
+
+nav > .logo, .login{
+    width: 20%;
 }
 
 .main-menu{
@@ -74,7 +77,11 @@ nav > img{
     text-decoration: none;
 }
 
-nav button{
+.login{
+    text-align: right;
+}
+
+.login button{
     padding: 10px 15px;
 }
 
@@ -133,7 +140,6 @@ main section{
 }
 
 .image{
-    background-color: red;
     width: 70%;
 }
 
