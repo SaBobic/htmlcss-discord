@@ -19,6 +19,12 @@ p{
     font-weight: 700;
 }
 
+h3{
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+}
+
 /* Utilities */
 
 .container{
@@ -33,12 +39,25 @@ p{
     font-weight: 700;
 }
 
-.a-right{
+.big-button{
+    font-size: 1.3rem;
+    padding: 15px 30px;
+}
+
+.ta-right{
     text-align: right;
+}
+
+.ta-center{
+    text-align: center;
 }
 
 .d-flex{
     display: flex;
+}
+
+.c-white{
+    color: white;
 }
 
 .bg-white{
@@ -51,6 +70,10 @@ p{
 
 .bg-grey{
     background-color: #F6F6F6;
+}
+
+.bg-purple{
+    background-color: #8EA1E1;
 }
 
 /* Header */
@@ -101,7 +124,6 @@ nav > .logo, .login{
 
 .jumbotron{
     width: 800px;
-    text-align: center;
 }
 
 .jumbotron h1{
@@ -141,9 +163,9 @@ main section{
 }
 
 main h2{
-    font-size: 48px;
+    font-size: 42px;
     font-weight: 900;
-    line-height: 56px;
+    line-height: 50px;
     margin-bottom: 30px;
 }
 
@@ -153,11 +175,11 @@ main p{
 }
 
 .image{
-    width: 60%;
+    width: 70%;
 }
 
 .text{
-    width: 40%;
+    width: 30%;
     padding-top: 30px;
 }
 
@@ -165,10 +187,11 @@ main p{
     flex-direction: column;
 }
 
-.section-column div{
-    height: 300px;
-    width: 100%;
-    background-color: blue;
+.section-column h3{
+    padding: 40px 0;
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position-x: center;
 }
 
 /* Footer */
