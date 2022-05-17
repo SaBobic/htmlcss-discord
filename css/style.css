@@ -103,6 +103,10 @@ li{
     display: flex;
 }
 
+.fd-column{
+    flex-direction: column;
+}
+
 .jc-center{
     justify-content: center;
 }
@@ -204,11 +208,7 @@ main p{
     padding-top: 30px;
 }
 
-.section-column{
-    flex-direction: column;
-}
-
-.section-column h3{
+main h3{
     padding: 40px 0;
     background-image: url(../img/stars.svg);
     background-repeat: no-repeat;
@@ -238,7 +238,7 @@ div.first-section-footer{
     vertical-align: middle;
 }
 
-.menu-footer section{
+footer section{
     width: 25%;
 }
 
