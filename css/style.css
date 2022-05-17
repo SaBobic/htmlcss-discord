@@ -25,6 +25,23 @@ h3{
     line-height: 32px;
 }
 
+h4{
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+a{
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    font-weight: 700;
+    color: white;
+    text-decoration: underline;
+}
+
 /* Utilities */
 
 .container{
@@ -106,12 +123,6 @@ nav > .logo, .login{
 
 .main-menu li{
     margin: 0 20px;
-}
-
-.main-menu a{
-    font-weight: 700;
-    color: white;
-    text-decoration: none;
 }
 
 .login button{
@@ -206,7 +217,6 @@ footer{
 }
 
 div.first-section-footer{
-    height: 450px;
     padding-bottom: 30px;
     border-bottom: 1px solid #363F55;
 }
@@ -241,7 +251,16 @@ div.first-section-footer{
 
 .menu-footer{
     width: 70%;
-    background-color: yellowgreen;
+}
+
+.menu-footer ul{
+    list-style-type: none;
+}
+
+.menu-footer li{
+    list-style-type: none;
+    line-height: 32px;
+    font-weight: 700;
 }
 
 .menu-footer section{
