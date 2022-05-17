@@ -215,6 +215,15 @@ main h3{
     background-position-x: center;
 }
 
+.wave{
+    display: block;
+    filter: invert(97%) sepia(1%) saturate(233%) hue-rotate(39deg) brightness(121%) contrast(93%);
+}
+
+.wave.reverse{
+    transform:rotate(180deg)
+}
+
 /* Footer */
 
 footer{
