@@ -1,0 +1,138 @@
+/* Reset */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Generics */
+
+
+
+/* Utilities */
+
+.container{
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.bg-grey{
+    background-color: #F6F6F6;
+}
+
+/* Header */
+
+header{
+    background-color: blue;
+}
+
+.header-row{
+    min-width: 1400px;
+    height: 70px;
+    background-color: aqua;
+}
+
+nav{
+    height: 100%;
+}
+
+.logo, .login{
+    width: 15%;
+    background-color: black;
+}
+
+.main-menu{
+    width: 70%;
+    background-color: blueviolet;
+}
+
+.jumbotron-row{
+    min-height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.jumbotron{
+    background-color: blueviolet;
+    height: 300px;
+    width: 50%;
+}
+
+/* Main */
+
+main section{
+    padding: 100px 0;
+    display: flex;
+}
+
+.section-row{
+    height: 600px;
+}
+
+.image{
+    background-color: red;
+    width: 70%;
+}
+
+.text{
+    background-color: yellow;
+    width: 30%;
+}
+
+.section-column{
+    flex-direction: column;
+}
+
+.section-column div{
+    height: 300px;
+    width: 100%;
+    background-color: blue;
+}
+
+/* Footer */
+
+footer{
+    background-color: #23272A;
+    padding: 50px 0;
+}
+
+div.first-section-footer{
+    height: 450px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid yellowgreen;
+}
+
+.second-section-footer{
+    justify-content: space-between;
+    padding-top: 30px;
+    height: 100px;
+}
+
+.intestazione-footer{
+    width: calc(100% / 3);
+    background-color: aquamarine;
+}
+
+.menu-footer{
+    width: calc(100% / 3 * 2);
+    background-color: yellowgreen;
+}
+
+.menu-footer section{
+    width: 25%;
+    border: 1px solid yellow;
+}
+
+.registrati{
+    width: 15%;
+    background-color: black;
+}
