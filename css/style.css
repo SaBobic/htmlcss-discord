@@ -51,11 +51,24 @@ a:hover{
     text-decoration: underline;
 }
 
+li{
+    line-height: 32px;
+    list-style-type: none;
+}
+
 /* Utilities */
 
 .container{
     width: 1200px;
     margin: 0 auto;
+}
+
+.w-70{
+    width: 70%;
+}
+
+.w-30{
+    width: 30%;
 }
 
 .button{
@@ -135,7 +148,6 @@ nav > .logo, .login{
 
 .main-menu ul{
     justify-content: center;
-    list-style-type: none;
 }
 
 .main-menu li{
@@ -191,12 +203,7 @@ main p{
     color: #23272A;
 }
 
-.image{
-    width: 70%;
-}
-
 .text{
-    width: 30%;
     padding-top: 30px;
 }
 
@@ -223,8 +230,15 @@ div.first-section-footer{
     border-bottom: 1px solid #363F55;
 }
 
+.language{
+    margin: 20px 0;
+    height: 16px;
+    line-height: 16px;
+}
+
 .language img{
-    height: 15px;
+    height: 16px;
+    vertical-align: middle;
 }
 
 .second-section-footer{
@@ -234,35 +248,15 @@ div.first-section-footer{
 }
 
 .intestazione-footer{
-    width: 30%;
     padding-right: 100px;
 }
 
-.language{
-    margin: 20px 0;
-}
-
-.language > *{
-    vertical-align: middle;
-}
 
 .social-row > *{
     margin-right: 20px;
 }
 
-.menu-footer{
-    width: 70%;
-}
 
 .menu-footer section{
     width: 25%;
-}
-
-.menu-footer ul{
-    list-style-type: none;
-}
-
-.menu-footer li{
-    list-style-type: none;
-    line-height: 32px;
 }
