@@ -74,6 +74,10 @@ a:hover{
     padding: 15px 30px;
 }
 
+.download-button > *{
+    vertical-align: middle;
+}
+
 .ta-right{
     text-align: right;
 }
@@ -162,18 +166,8 @@ nav > .logo, .login{
     margin-bottom: 30px;
 }
 
-.jumbotron button{
-    font-size: 1.3rem;
-    padding: 15px 30px;
-}
-
-.download-button > *{
-    vertical-align: middle;
-}
-
-.open-button {
+.jumbotron button:last-child {
     background-color: #23272A;
-    color: white;
 }
 
 .fa-solid.fa-down-long{
