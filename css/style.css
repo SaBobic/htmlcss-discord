@@ -60,6 +60,10 @@ h3{
     color: white;
 }
 
+.c-purple{
+    color: #8EA1E1;
+}
+
 .bg-white{
     background-color: white;
 }
@@ -204,7 +208,11 @@ footer{
 div.first-section-footer{
     height: 450px;
     padding-bottom: 30px;
-    border-bottom: 1px solid yellowgreen;
+    border-bottom: 1px solid #363F55;
+}
+
+.language img{
+    height: 15px;
 }
 
 .second-section-footer{
@@ -214,18 +222,30 @@ div.first-section-footer{
 }
 
 .intestazione-footer{
-    width: calc(100% / 3);
-    background-color: aquamarine;
+    width: 30%;
+    padding-right: 100px;
+}
+
+.language{
+    margin: 20px 0;
+}
+
+.language > *{
+    vertical-align: middle;
+}
+
+.social-row > *{
+    font-size: 20px;
+    margin-right: 20px;
 }
 
 .menu-footer{
-    width: calc(100% / 3 * 2);
+    width: 70%;
     background-color: yellowgreen;
 }
 
 .menu-footer section{
     width: 25%;
-    border: 1px solid yellow;
 }
 
 .registrati{
