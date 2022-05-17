@@ -135,6 +135,11 @@ li{
     background-color: #8EA1E1;
 }
 
+.fa-solid.fa-down-long{
+    margin-right: 10px;
+    font-size: 1rem;
+}
+
 /* Header */
 
 nav{
@@ -157,10 +162,6 @@ nav > .logo, .login{
     margin: 0 20px;
 }
 
-.login button{
-    padding: 10px 15px;
-}
-
 .jumbotron-row{
     background-image: url(../img/jumbo.png);
     background-size: cover;
@@ -181,11 +182,6 @@ nav > .logo, .login{
 
 .jumbotron button:last-child {
     background-color: #23272A;
-}
-
-.fa-solid.fa-down-long{
-    margin-right: 10px;
-    font-size: 1rem;
 }
 
 /* Main */
@@ -242,6 +238,10 @@ div.first-section-footer{
     vertical-align: middle;
 }
 
+.menu-footer section{
+    width: 25%;
+}
+
 .second-section-footer{
     justify-content: space-between;
     padding-top: 30px;
@@ -255,9 +255,4 @@ div.first-section-footer{
 
 .social-row > *{
     margin-right: 20px;
-}
-
-
-.menu-footer section{
-    width: 25%;
 }
