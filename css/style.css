@@ -103,6 +103,14 @@ li{
     display: flex;
 }
 
+.jc-center{
+    justify-content: center;
+}
+
+.ai-center{
+    align-items: center;
+}
+
 .c-white{
     color: white;
 }
@@ -131,7 +139,6 @@ li{
 
 nav{
     height: 70px;
-    align-items: center;
 }
 
 nav > img{
@@ -146,10 +153,6 @@ nav > .logo, .login{
     width: 60%;
 }
 
-.main-menu ul{
-    justify-content: center;
-}
-
 .main-menu li{
     margin: 0 20px;
 }
@@ -161,9 +164,7 @@ nav > .logo, .login{
 .jumbotron-row{
     background-image: url(../img/jumbo.png);
     background-size: cover;
-    min-height: 600px;
-    justify-content: center;
-    align-items: center;
+    min-height: 620px;
 }
 
 .jumbotron{
